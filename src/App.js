@@ -42,7 +42,7 @@ function App() {
           <Route path="/signin" element={<SignIn setLoggedInSurveyor={setLoggedInSurveyorHandler} />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/display-response" element={<DisplayResponse />}/>
-          <Route path="/answer-survey" element={<AnswerSurvey />} />
+          <Route path="/answer-survey" exact element={<AnswerSurvey />} />
       </Routes>
     </Router>
   );
