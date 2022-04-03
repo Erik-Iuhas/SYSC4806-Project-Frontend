@@ -1,6 +1,6 @@
 {
   "name": "sysc-4806-project-frontend",
-  "homepage": "https://squidguu-surveys.herokuapp.com/",
+  "homepage": "https://squidguu-surveys.herokuapp.com/answer-survey",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
